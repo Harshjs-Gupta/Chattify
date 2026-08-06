@@ -1,36 +1,170 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱💭 Chattify
 
-## Getting Started
+> A modern real-time chat application that helps users connect through seamless and instant messaging.
 
-First, run the development server:
+---
+
+## 🌟 Overview
+
+**Chattify** is a modern messaging platform built to provide a fast, responsive, and user-friendly chatting experience.
+
+Users can create an account, connect with others, and exchange messages in real time. The application focuses on delivering smooth performance, clean UI, and an intuitive user experience.
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Live:** https://chattify-harsh.vercel.app/
+
+---
+
+## 🧠 Features
+
+✅ Secure user authentication (Login & Signup)
+
+✅ Real-time one-to-one messaging
+
+✅ User search and discover
+
+✅ Friend management
+
+✅ User profiles
+
+✅ Online user status
+
+✅ Real-time message updates
+
+✅ Responsive design for desktop and mobile
+
+✅ Smooth animations using Framer Motion
+
+✅ Modern and intuitive user interface
+
+> **🚧 Upcoming Features**
+>
+> * 🎙️ Voice Notes
+> * 📁 Media & File Sharing
+> * 📞 Voice Calling
+> * 🎥 Video Calling
+> * ⚙️ Advanced User Settings
+
+---
+
+## 🛠️ Tech Stack
+
+| Category               | Technologies                       |
+| ---------------------- | ---------------------------------- |
+| **Frontend**           | Next.js 15, React 19, Tailwind CSS |
+| **Backend & Database** | Firebase                           |
+| **Authentication**     | Firebase Authentication            |
+| **Real-time Services** | Firebase Firestore                 |
+| **Animation**          | Framer Motion                      |
+| **Package Manager**    | pnpm                               |
+| **Hosting**            | Vercel                             |
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots or GIFs showcasing your application.
+
+<h1 align="center">📽️ Application GIF</h1>
+<img src="public/chattify.gif" width="100%" alt="Application gif">
+
+<h1 align="center">🛬 Landing Page</h1>
+<img src="public/landing.png" width="100%" alt="Landing Page">
+
+<h1 align="center">🔐 Log in Page</h1>
+<img src="public/login.png" width="100%" alt="Log in Page">
+
+<h1 align="center">🗨️ Chat Page</h1>
+<img src="public/chat.png" width="100%" alt="Chat Page">
+
+<h1 align="center">📋 Chats List Page</h1>
+<img src="public/chatsList.png" width="100%" alt="chatList Page">
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository and install dependencies.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone the repository
+git clone https://github.com/Harshjs-Gupta/chattify.git
+
+# Navigate to the project
+cd chattify
+
+# Install dependencies
+pnpm install
+
+# Start the development server
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+components/
+hooks/
+lib/
+context/
+firebase/
+public/
+types/
+utils/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Future Improvements
 
-## Deploy on Vercel
+* Voice Calling
+* Video Calling
+* Voice Messages
+* Media & File Sharing
+* Group Chats
+* Message Reactions
+* Read Receipts
+* Typing Indicator
+* Push Notifications
+* Chat Backup
+* Advanced Privacy Settings
+* Message Search
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Harsh Gupta**
+
+* GitHub: https://github.com/Harshjs-Gupta
+* Portfolio: https://harsh-gupta-portfolio-dev.vercel.app/
+
+---
+
+⭐ If you like this project, consider giving it a **Star** on GitHub!
